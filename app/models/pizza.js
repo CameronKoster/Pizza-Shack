@@ -1,7 +1,9 @@
 
 
 export default class Pizza {
-  constructor() {
-    console.log("model working")
+  constructor(name, price) {
+
+    this.name = name
+    this.price = price
   }
 }
